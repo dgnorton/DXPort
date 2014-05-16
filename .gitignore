@@ -1,0 +1,9 @@
+*.aps
+*.clw
+*.ncb
+*.opt
+*.plg
+*.zip
+*.exe
+Debug
+Release

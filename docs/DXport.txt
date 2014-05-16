@@ -1,0 +1,73 @@
+Welcome to the Beta test for DXport!
+
+DXport attempts to deal with the fact that
+you cannot set the client port with DirectX
+games. DirectX will use a port in the range
+of 2302-2400, most of the time the port picked
+is 2302. What DXport does is lock all the
+ports outside of the range you specify. 
+
+When DXport is started you will need to enter
+in the ports you want your DirectX game to use.
+The idea is to have all the clients use 
+different ports. You can enter a single port or
+a range of ports. Since MSN Messenger and other
+Microsoft programs use this range of ports it
+will usually be better to specify a range of
+ports. After the examples I have a list of the
+ports broken up into blocks of five.
+
+Depending on the NAT hardware you are behind
+this may be all that you have to do. Others 
+will have to forward the ports on the NAT
+device.  If you had to forward ports just to
+play with one machine then this is probably
+what you will have to do. If you have PC#1
+using ports 2302-2306 on 192.168.1.10 then
+forward those ports to that IP address and
+do the same for each PC.   You will no longer
+have all the ports (2302-2400) pointing to one
+PC. Only forward the ports you setup on that
+machine.
+
+I would like to thank you for trying DXport
+and I hope it will work for you. Feel free to
+suggest ideas and add to this documentation.
+Also, please send me a list of
+any games you get this to work with.
+
+PC#1 - 192.168.1.10
+  Start Port: 2302
+  End Port:  2306
+
+PC#2 - 192.168.1.11
+  Start Port: 2307
+  End Port:  2311
+
+PC#3 - 192.168.1.12
+  Start Port: 2312
+  End Port:  2316
+
+Etc…
+
+Range 01: 2302 - 2306
+Range 02: 2307 - 2311
+Range 03: 2312 - 2316
+Range 04: 2317 - 2321
+Range 05: 2322 - 2326
+Range 06: 2327 - 2331
+Range 07: 2332 - 2336
+Range 08: 2337 - 2341
+Range 09: 2342 - 2346
+Range 10: 2347 - 2351
+Range 11: 2352 - 2356
+Range 12: 2357 - 2361
+Range 13: 2362 - 2366
+Range 14: 2367 - 2371
+Range 15: 2372 - 2376
+Range 16: 2377 - 2381
+Range 17: 2382 - 2386
+Range 18: 2387 - 2391
+Range 19: 2392 - 2396
+Range 20: 2397 - 2400
+
